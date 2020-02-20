@@ -11,6 +11,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         app:errorEnabled="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -28,7 +30,8 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/et_password"
-
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:counterEnabled="true"
@@ -51,7 +54,8 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/et_username"
-
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:counterEnabled="true"
@@ -80,6 +84,8 @@
         android:layout_marginLeft="161dp"
         android:layout_marginTop="583dp"
         android:text="Sign In"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
