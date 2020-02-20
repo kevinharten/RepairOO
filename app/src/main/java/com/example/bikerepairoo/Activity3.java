@@ -30,14 +30,16 @@ public class Activity3 extends AppCompatActivity {
 
         mBtnSignIn.setOnClickListener(this::submitData);
 
-        mEmailLayout.setErrorTextColor(ColorStateList.valueOf(Color.BLUE ));
+        mEmailLayout.setErrorTextColor(ColorStateList.valueOf(Color.RED ));
+        mPasswordLayout.setErrorTextColor(ColorStateList.valueOf(Color.RED));
+        mUsernameLayout.setErrorTextColor(ColorStateList.valueOf(Color.RED));
 
 
 
 
     }
     private boolean validateEmailAdress() {
-        String email = mEmailLayout.getEditText().toString().trim();
+        String email = mEmailLayout.getEditText().getText().toString().trim();
         if(email.isEmpty()) {
             mEmailLayout.setError("Email is Required, Cant be Empty!");
             return false;
@@ -48,7 +50,7 @@ public class Activity3 extends AppCompatActivity {
 
     }
     private boolean validatePassword() {
-        String password = mPasswordLayout.getEditText().toString().trim();
+        String password = mPasswordLayout.getEditText().getText().toString().trim();
         if(password.isEmpty()) {
             mPasswordLayout.setError("Password is Required, Cant be Empty!");
             return false;
@@ -63,7 +65,7 @@ public class Activity3 extends AppCompatActivity {
     }
 
     private boolean validateUsername() {
-        String username = mUsernameLayout.getEditText().toString().trim();
+        String username = mUsernameLayout.getEditText().getText().toString().trim();
         if(username.isEmpty()) {
             mUsernameLayout.setError("Username is Required, Cant be Empty!");
             return false;
