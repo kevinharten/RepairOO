@@ -30,10 +30,10 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/et_password"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         app:counterEnabled="true"
         app:counterMaxLength="12"
         app:errorEnabled="true"
@@ -54,10 +54,10 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/et_username"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         app:counterEnabled="true"
         app:counterMaxLength="10"
         app:errorEnabled="true"
@@ -83,11 +83,25 @@
         android:layout_marginStart="161dp"
         android:layout_marginLeft="161dp"
         android:layout_marginTop="583dp"
-        android:text="Sign In"
-        android:textColor="@color/white"
         android:background="@drawable/button_background"
+        android:text="Sign Up"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_width="134dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="33dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
