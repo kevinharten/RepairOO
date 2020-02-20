@@ -6,13 +6,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.view.Gravity;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+import com.google.android.material.textfield.TextInputLayout;
+
 public class Activity2 extends AppCompatActivity {
     private ImageView imageView2;
-    private EditText editText,editText2;
+    private EditText email,pass;
+
     long duration = 1000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +26,12 @@ public class Activity2 extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
 
-        editText = (EditText)findViewById(R.id.editText);
+        email = (EditText) findViewById(R.id.email);
+        pass = (EditText)findViewById(R.id.pass);
+
+
+
+
 
 
 
