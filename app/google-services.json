@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "497746288807",
+    "firebase_url": "https://bikerepairoo.firebaseio.com",
+    "project_id": "bikerepairoo",
+    "storage_bucket": "bikerepairoo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497746288807:android:adcced9a4cd74edbb43b82",
+        "android_client_info": {
+          "package_name": "com.example.bikerepairoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497746288807-79dieor2q3r2g8r73pq7pc86mib94kib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm3dGRTLhkNdc47t-07vtPeAyYkvB_tc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497746288807-79dieor2q3r2g8r73pq7pc86mib94kib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
